@@ -10,7 +10,8 @@ public class Main {
         Para dar salto de línea o pongo en el println o entre las comillas siempre pongo
         \n
          */
-        System.out.println("Este es la segunda línea del programa");
+        System.out.println("Este es la segunda línea del programa\n");
+        System.out.println("Hola bebota");
         //TODO
         //este tipo de comentario sale resaltado y en color para que lo puedas localizar siempre
     }
