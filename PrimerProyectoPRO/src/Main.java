@@ -32,7 +32,7 @@ public class Main {
         /*
         Estas son varialbes mutables, puedo cambiar su valor cuando quiera
          */
-        final String DNI = "14372024M"; // esta variable sería no mutable, no la puedo cambiar, como el nº PI
+        final String DNI = "14372024M"; // esta variable sería no mutable, no la puedo cambiar, como el nº PI, final lo define como que nadie puede cambiar su valor
 
         System.out.println("Mi nombre es: "+miNombre);
         System.out.println("La letra de mi DNI es: "+letraDNI);
@@ -41,14 +41,19 @@ public class Main {
         System.out.println("Mi peso es de: "+peso+" kg");
         System.out.println("Mi experiencia es: "+experiencia);
         System.out.println("Mi DNI es el: "+DNI);
-        System.out.println("El valor del número PI es: "+Math.PI); //ejemplo de no mutable
+        System.out.println("El valor del número PI es: "+Math.PI); //ejemplo de no mutable (siempre se escriben en mayúscula)
+        System.out.println("El valor máximo de un int es: "+Integer.MAX_VALUE);
+        System.out.println("El valor mínimo de un int es: "+Integer.MIN_VALUE); //ambas ejemplos de no mutables
 
 
 
     }
 
     public void nombreMetodo () {
+        int edadMetodo = 42;
+        System.out.println(edadMetodo);
 
     }
+
 
 }
