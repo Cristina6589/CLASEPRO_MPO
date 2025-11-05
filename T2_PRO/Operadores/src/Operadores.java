@@ -74,9 +74,6 @@ public class Operadores {
     OR: el resultado de una comparación compuesta por 2 o más condiciones será true si
     una de ellas es true. Solo será false si todas son false
     Se pone || (pipe o doble tubería se llama)
-    NOT: el resultado de una comparación compuesta por 2 o más condiciones será true si
-    una de ellas es true. Solo será false si todas son false
-    Se pone || (pipe o doble tubería se llama)
      */
     public void operadoresLogicos(){
         int numeroUno = 4;
