@@ -45,11 +45,6 @@ public class Entrada {
         Este sería el elemento intermediario para no acceder directamente y de
         forma menos segura con public static void
          */
-
-
-
-
-
     }
 
     /*

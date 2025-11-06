@@ -17,8 +17,14 @@ public class Operaciones {
         System.out.println("El resultado de la suma es: "+resultado);
     }
 
-    public void restar(int op1, int op2){
+    public int restar(int op1, int op2){
         int resultado = op1-op2;
         System.out.println("El resultado de la resta es: "+resultado);
+        // al final del metodo en la última línea le tengo que decir que retorna
+        return resultado;
+
+
+
+
     }
 }
