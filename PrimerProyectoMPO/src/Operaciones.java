@@ -22,9 +22,10 @@ public class Operaciones {
         System.out.println("El resultado de la resta es: "+resultado);
         // al final del metodo en la última línea le tengo que decir que retorna
         return resultado;
+    }
 
-
-
-
+    public boolean validarNumero(int numero){
+        return numero>10;
     }
 }
+

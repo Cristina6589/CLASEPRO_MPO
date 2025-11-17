@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Entrada {
 
     //Clase sobre métodos (refactorización)
@@ -37,7 +39,10 @@ public class Entrada {
         Operaciones operacionesMatematicas = new Operaciones();
         operacionesMatematicas.sumar(16,83);
         operacionesMatematicas.restar(51,33);
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introduce el número que quieres validar");
+        int numeroUsuario = scanner.nextInt();
+        System.out.println("El numero es valido "+operacionesMatematicas.validarNumero(numeroUsuario));
         /*
         En este caso es más seguro porque me estoy creando yo una
         variable compleja donde yo le doy el nombre, en este caso "Operaciones"
@@ -70,5 +75,6 @@ public class Entrada {
         System.out.println("Adios mi gente");
         System.out.println("Ya está bien por hoy");
         System.out.println("Cerramos el chiringuito\n");
+
     }
 }
