@@ -87,4 +87,26 @@ public class Operadores {
         // el primer modulo sería true por lo que el resultado lógico sería true ya que cumple uno true
         System.out.println("El resultado lógico de OR es "+resultadoLogicoOR);
     }
+    public void cambiosTipo(){
+     //CASTEO ejemplo
+      //int letraASCII = 75;
+        //System.out.println((char) letraASCII);
+        /*
+        ASCII (American Standard Code for Information Interchange) es un sistema de codificación
+        que asigna un valor numérico único a cada letra, dígito, símbolo y carácter de control
+         */
+
+        //PARSEO ejemplo
+        //String palabra = "7";
+        //System.out.println(Integer.parseInt(palabra)+10);
+        //String palabra = "si";
+        //System.out.println(Boolean.parseBoolean(palabra));
+
+        //int numero =123;
+        //System.out.println(String.valueOf(123)+1);
+        //boolean cierto = true;
+        //System.out.println(String.valueOf(cierto) +"bitch");
+        char letra = 'a';
+        System.out.println(String.valueOf(letra)+" por uvas");
+    }
 }
