@@ -17,7 +17,7 @@ public class Entrada {
         gestorUsuarios.validarUsuario("Cristi", 36, "cristi@gmail.com");
         GestorDocumentos  gestorDocumentos = new GestorDocumentos();
         gestorDocumentos.imprimirFactura(12);
-        
+
 
     }
 }
